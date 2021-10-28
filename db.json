@@ -1,0 +1,554 @@
+{
+  "globalConf": {
+    "baseUrl": "https://online.jae.com",
+    "env": "online",
+    "ga": "GA-XXXXX",
+    "debug": "0",
+    "api": [
+      {
+        "apiName": "registration",
+        "path": "/api/v1/f/registration.php"
+      },
+      {
+        "apiName": "auth",
+        "path": "/api/v1/f/auth.php"
+      },
+      {
+        "apiName": "auth",
+        "path": "/api/v1/f/auth.php"
+      },
+      {
+        "apiName": "inquiry",
+        "path": "/api/v1/f/inquiry.php"
+      },
+      {
+        "apiName": "refreshToken",
+        "path": "/api/v1/f/refreshToken.php"
+      },
+      {
+        "apiName": "resetPassword",
+        "path": "/api/v1/b/resetPassword.php"
+      }
+    ],
+    "pageId": [
+      {
+        "path": "/registration/index.html",
+        "pageId": "PageID-01-01"
+      },
+      {
+        "path": "/registration/confirm.html",
+        "pageId": "PageID-01-02"
+      },
+      {
+        "path": "/registration/temporary.html",
+        "pageId": "PageID-01-03"
+      },
+      {
+        "path": "/registration/eMailTmpl-t-temporary-mail.txt",
+        "pageId": "PageID-01-04"
+      },
+      {
+        "path": "/registration/thankyou.html",
+        "pageId": "PageID-01-05"
+      },
+      {
+        "path": "/registration/eMailTmpl-t-thankyou-mail.txt",
+        "pageId": "PageID-01-06"
+      },
+      {
+        "path": "/registration/privacypolicy.html",
+        "pageId": "PageID-01-07"
+      },
+      {
+        "path": "/registration/privacypolicy/index.html",
+        "pageId": "PageID-01-08"
+      },
+      {
+        "path": "/exhibition/index.html",
+        "pageId": "PageID-02-01"
+      },
+      {
+        "path": "/exhibition/product/index.html",
+        "pageId": "PageID-03-01"
+      },
+      {
+        "path": "/exhibition/product/01/index.html",
+        "pageId": "PageID-03-02-01"
+      },
+      {
+        "path": "/exhibition/product/02/index.html",
+        "pageId": "PageID-03-02-02"
+      },
+      {
+        "path": "/exhibition/product/03/index.html",
+        "pageId": "PageID-03-02-03"
+      },
+      {
+        "path": "/exhibition/product/04/index.html",
+        "pageId": "PageID-03-02-04"
+      },
+      {
+        "path": "/exhibition/product/05/index.html",
+        "pageId": "PageID-03-02-05"
+      },
+      {
+        "path": "/exhibition/product/06/index.html",
+        "pageId": "PageID-03-02-06"
+      },
+      {
+        "path": "/exhibition/product/07/index.html",
+        "pageId": "PageID-03-02-07"
+      },
+      {
+        "path": "/exhibition/product/08/index.html",
+        "pageId": "PageID-03-02-08"
+      },
+      {
+        "path": "/exhibition/product/09/index.html",
+        "pageId": "PageID-03-02-09"
+      },
+      {
+        "path": "/exhibition/product/10/index.html",
+        "pageId": "PageID-03-02-10"
+      },
+      {
+        "path": "/exhibition/webinar/index.html",
+        "pageId": "PageID-04-01"
+      },
+      {
+        "path": "{webinar Vimeo Tag 01}",
+        "pageId": "PageID-04-02-01"
+      },
+      {
+        "path": "{webinar Vimeo Tag 02}",
+        "pageId": "PageID-04-02-02"
+      },
+      {
+        "path": "{webinar Vimeo Tag 03}",
+        "pageId": "PageID-04-02-03"
+      },
+      {
+        "path": "{webinar Vimeo Tag 04}",
+        "pageId": "PageID-04-02-04"
+      },
+      {
+        "path": "{webinar Vimeo Tag 05}",
+        "pageId": "PageID-04-02-05"
+      },
+      {
+        "path": "{webinar Vimeo Tag 06}",
+        "pageId": "PageID-04-02-06"
+      },
+      {
+        "path": "{webinar Vimeo Tag 07}",
+        "pageId": "PageID-04-02-07"
+      },
+      {
+        "path": "{webinar Vimeo Tag 08}",
+        "pageId": "PageID-04-02-08"
+      },
+      {
+        "path": "{webinar Vimeo Tag 09}",
+        "pageId": "PageID-04-02-09"
+      },
+      {
+        "path": "{webinar Vimeo Tag 10}",
+        "pageId": "PageID-04-02-10"
+      },
+      {
+        "path": "/exhibition/case-study/index.html",
+        "pageId": "PageID-05-01"
+      },
+      {
+        "path": "/exhibition/case-study/[1-9]/index.html",
+        "pageId": "PageID-05-02-[1-6]"
+      },
+      {
+        "path": "/exhibition/secret-story/index.html",
+        "pageId": "PageID-06-01"
+      },
+      {
+        "path": "/exhibition/secret-story/[1-6]/index.html",
+        "pageId": "PageID-06-02-[1-6]"
+      },
+      {
+        "path": "/exhibition/movie-library/index.html",
+        "pageId": "PageID-07-01"
+      },
+      {
+        "path": "{movie-library Vimeo Tag 01}",
+        "pageId": "PageID-07-02-01"
+      },
+      {
+        "path": "{movie-library Vimeo Tag 02}",
+        "pageId": "PageID-07-02-02"
+      },
+      {
+        "path": "{movie-library Vimeo Tag 03}",
+        "pageId": "PageID-07-02-03"
+      },
+      {
+        "path": "{movie-library Vimeo Tag 04}",
+        "pageId": "PageID-07-02-04"
+      },
+      {
+        "path": "{movie-library Vimeo Tag 05}",
+        "pageId": "PageID-07-02-05"
+      },
+      {
+        "path": "{movie-library Vimeo Tag 06}",
+        "pageId": "PageID-07-02-06"
+      },
+      {
+        "path": "{movie-library Vimeo Tag 07}",
+        "pageId": "PageID-07-02-07"
+      },
+      {
+        "path": "{movie-library Vimeo Tag 08}",
+        "pageId": "PageID-07-02-08"
+      },
+      {
+        "path": "{movie-library Vimeo Tag 09}",
+        "pageId": "PageID-07-02-09"
+      },
+      {
+        "path": "{movie-library Vimeo Tag 10}",
+        "pageId": "PageID-07-02-10"
+      },
+      {
+        "path": "/exhibition/download/index.html",
+        "pageId": "PageID-08-01"
+      },
+      {
+        "path": "{download PDF File 01}",
+        "pageId": "PageID-08-02-01"
+      },
+      {
+        "path": "{download PDF File 02}",
+        "pageId": "PageID-08-02-02"
+      },
+      {
+        "path": "{download PDF File 03}",
+        "pageId": "PageID-08-02-03"
+      },
+      {
+        "path": "{download PDF File 04}",
+        "pageId": "PageID-08-02-04"
+      },
+      {
+        "path": "{download PDF File 05}",
+        "pageId": "PageID-08-02-05"
+      },
+      {
+        "path": "{download PDF File 06}",
+        "pageId": "PageID-08-02-06"
+      },
+      {
+        "path": "{download PDF File 07}",
+        "pageId": "PageID-08-02-07"
+      },
+      {
+        "path": "{download PDF File 08}",
+        "pageId": "PageID-08-02-08"
+      },
+      {
+        "path": "{download PDF File 09}",
+        "pageId": "PageID-08-02-09"
+      },
+      {
+        "path": "{download PDF File 10}",
+        "pageId": "PageID-08-02-10"
+      },
+      {
+        "path": "/exhibition/contact/index.html",
+        "pageId": "PageID-09-01"
+      },
+      {
+        "path": "/exhibition/contact/confirm.html",
+        "pageId": "PageID-09-02"
+      },
+      {
+        "path": "/exhibition/contact/thankyou.html",
+        "pageId": "PageID-09-03"
+      },
+      {
+        "path": "/exhibition/contact/eMailTmpl-thankyou-mail.txt",
+        "pageId": "PageID-09-04"
+      },
+      {
+        "path": "/exhibition/contact/thankyou-mail.txt",
+        "pageId": "PageID-09-05"
+      },
+      {
+        "path": "/exhibition/guide/index.html",
+        "pageId": "PageID-10-01"
+      },
+      {
+        "path": "/exhibition/privacypolicy/index.html",
+        "pageId": "PageID-11-01"
+      },
+      {
+        "path": "/exhibition/asset/html/header.html",
+        "pageId": "PageID-12-01"
+      },
+      {
+        "path": "/exhibition/asset/html/footer.html",
+        "pageId": "PageID-12-02"
+      },
+      {
+        "path": "/exhibition/asset/html/menu.html",
+        "pageId": "PageID-12-03"
+      },
+      {
+        "path": "/exhibition/asset/html/addon.html",
+        "pageId": "PageID-12-04"
+      },
+      {
+        "path": "/exhibition/asset/html/tag.html",
+        "pageId": "PageID-12-05"
+      },
+      {
+        "path": "/exhibition/asset/config/unique.html",
+        "pageId": "PageID-12-07"
+      },
+      {
+        "path": "/exhibition/asset/config/unique___jae___private.html",
+        "pageId": "PageID-12-08"
+      },
+      {
+        "path": "/exhibition/asset/html/cookie.html",
+        "pageId": "PageID-12-09"
+      },
+      {
+        "path": "/exhibition/asset/css/unique.html",
+        "pageId": "PageID-12-10"
+      },
+      {
+        "path": "/login/index.html",
+        "pageId": "PageID-13-01"
+      },
+      {
+        "path": "/login/error.html",
+        "pageId": "PageID-13-02"
+      },
+      {
+        "path": "/login/success.html",
+        "pageId": "PageID-13-03"
+      },
+      {
+        "path": "/login/forget.html",
+        "pageId": "PageID-13-04"
+      },
+      {
+        "path": "/login/forget-error.html",
+        "pageId": "PageID-13-05"
+      },
+      {
+        "path": "/login/forget-success.html",
+        "pageId": "PageID-13-06"
+      },
+      {
+        "path": "/login/eMailTmpl-newPassword.txt",
+        "pageId": "PageID-13-07"
+      },
+      {
+        "path": "/message/generic.html",
+        "pageId": "PageID-15-01"
+      },
+      {
+        "path": "/message/{Status Code}.html",
+        "pageId": "PageID-15-04"
+      },
+      {
+        "path": "/registration/message/generic.html",
+        "pageId": "PageID-15-07"
+      }
+    ],
+    "status": [
+      {
+        "code": "000",
+        "message": "入力内容に不備があります。"
+      },
+      {
+        "code": "200",
+        "message": "正常系コンテンツを表示する。"
+      },
+      {
+        "code": "200",
+        "message": "正常系コンテンツを表示する。"
+      },
+      {
+        "code": "401",
+        "message": "この展示会は開催しておりません。"
+      },
+      {
+        "code": "402",
+        "message": "認証に失敗しました。前回アクセスの際と異なるデバイスにてご覧の場合は再登録が必要です。"
+      },
+      {
+        "code": "403",
+        "message": "不正なリクエストです。"
+      },
+      {
+        "code": "404",
+        "message": "対象外の展示会です。"
+      },
+      {
+        "code": "405",
+        "message": "この展示会の開催期間はYYYY年M月D日H時からYYYY年M月D日H時までです。"
+      },
+      {
+        "code": "406",
+        "message": "この展示会の開催期間はYYYY年M月D日H時からYYYY年M月D日H時までです。"
+      },
+      {
+        "code": "407",
+        "message": "不正なリクエストです。"
+      },
+      {
+        "code": "408",
+        "message": "認証に失敗しました。"
+      },
+      {
+        "code": "409",
+        "message": "認証に失敗しました。"
+      },
+      {
+        "code": "410",
+        "message": "認証に失敗しました。"
+      },
+      {
+        "code": "411",
+        "message": "ログファイルの形式が不正です。"
+      },
+      {
+        "code": "412",
+        "message": "この展示会のログはありません。先にインポートを行ってください。"
+      },
+      {
+        "code": "413",
+        "message": "ログ形式の指定が不正です。"
+      },
+      {
+        "code": "414",
+        "message": "このログファイルには選択した展示会のログがありません。"
+      },
+      {
+        "code": "415",
+        "message": "検索結果は0件です。"
+      },
+      {
+        "code": "416",
+        "message": "認証に失敗しました。"
+      },
+      {
+        "code": "900",
+        "message": "ただいま大変混み合っています。しばらくしてからアクセスしなおしてください。"
+      },
+      {
+        "code": "901",
+        "message": "ただいま大変混み合っています。しばらくしてからアクセスしなおしてください。"
+      },
+      {
+        "code": "902",
+        "message": "ただいま大変混み合っています。しばらくしてからアクセスしなおしてください。"
+      },
+      {
+        "code": "999",
+        "message": "ただいま大変混み合っています。しばらくしてからアクセスしなおしてください。"
+      },
+      {
+        "code": "500",
+        "message": "ただいま大変混み合っています。しばらくしてからアクセスしなおしてください。"
+      },
+      {
+        "code": "501",
+        "message": "ただいま大変混み合っています。しばらくしてからアクセスしなおしてください。"
+      },
+      {
+        "code": "800",
+        "message": "本登録のご案内メールから本登録をするか、再登録をしてください。"
+      },
+      {
+        "code": "801",
+        "message": "仮登録の入力内容に誤りがあります、再入力してください。"
+      },
+      {
+        "code": "802",
+        "message": "対象外の展示会です。"
+      },
+      {
+        "code": "803",
+        "message": "事前登録をしてください。"
+      },
+      {
+        "code": "405",
+        "message": "この展示会の開催期間はYYYY年M月D日H時からYYYY年M月D日H時までです。"
+      },
+      {
+        "code": "406",
+        "message": "この展示会の開催期間はYYYY年M月D日H時からYYYY年M月D日H時までです。"
+      },
+      {
+        "code": "804",
+        "message": "入力内容に不備があります。文字数や文字種をご確認ください。"
+      },
+      {
+        "code": "805",
+        "message": "ユーザー名とパスワードに間違いがあります。"
+      }
+    ]
+  },
+  "conf": {
+    "expositionId": "abcde",
+    "sessionExpiredDateTime": "604800",
+    "startDateTime": "YYYY-MM-DD-HH-MM-SS",
+    "endDateTime": "YYYY-MM-DD-HH-MM-SS",
+    "allowedDomains": [
+      {
+        "allowedDomains1": "@xxx.com"
+      },
+      {
+        "allowedDomains2": "@xxx.com"
+      },
+      {
+        "allowedDomains3": "@xxx.com"
+      },
+      {
+        "allowedDomains4": "@xxx.com"
+      },
+      {
+        "allowedDomains5": "@xxx.com"
+      }
+    ]
+  },
+  "registration": [
+    {
+      "id": "test"
+    }
+  ],
+  "error000": {
+    "message": "リクエスト内容が揃っていない。",
+    "code": "000"
+  },
+  "error401": {
+    "message": "expositionIdが一致しない。",
+    "code": 401
+  },
+  "error404": {
+    "message": "対象メールドメインが一致しない。",
+    "code": 404
+  },
+  "error405": {
+    "message": "開催期間が一致しない、展示会開始前。",
+    "code": 405
+  },
+  "error406": {
+    "message": "???",
+    "code": 406
+  },
+  "error999": {
+    "message": "その他システムエラー。",
+    "code": 999
+  }
+}
